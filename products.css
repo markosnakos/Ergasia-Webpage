@@ -1,3 +1,95 @@
 /* BEGIN CODE HERE */
+.Header {
+    height: 150px;
+    /*background-color: green;    test color to compare the height with homepage site*/
+    box-sizing: border-box;
+}
 
+.Frame4 {
+    position:absolute;
+    height: 400px;
+    width: 1200px;
+    /*background-color: blue; */ 
+    padding: 8px;
+    border: solid black;
+    left: 85px;
+}
+
+.Home_container {
+    position: absolute;
+    right: 300px;
+    top: 0px;
+    text-decoration: underline;
+    padding:20px;
+}
+.Logo{
+    padding:20px;
+    box-sizing: border-box;
+}
+
+h1:hover{
+    color: grey;
+}
+
+.Products_container {
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    text-decoration: underline;
+    padding:20px;
+}
+h4{
+    color: grey;
+}
+.Search_bar{
+    position: relative;
+    top: 0px;
+    left:225px;
+}
+.Search_text{
+    position: relative;
+    top: 38px;
+}
+.Results{
+    position: absolute;
+    top: 150px;
+}
+.Result_table{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    padding: 8px;
+    text-align: center;
+    background-color: lightgrey;
+    border: solid black;
+}
+.Restult_table th, .Result_table td{
+    width:150px;
+    height: 100px;
+    padding: 8px;
+    border: solid black;
+}
+.h6{
+    text-decoration: underline;
+}
+.Frame5{
+    position: absolute;
+    height: 200px;
+    width: 1200px;
+    left: 85px;
+    top: 560px;
+    border: solid black;
+    padding: 8px;
+
+}
+.Footer_container {
+    background-color: black;
+    color: grey;
+    text-align: center;
+    position: relative;
+    margin-top: 700px;
+    height: 100px;
+    box-sizing:border-box;
+    padding:25px;
+}
 /* END CODE HERE */
