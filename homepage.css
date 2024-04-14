@@ -1,3 +1,107 @@
 /* BEGIN CODE HERE */
+body, html{ /*Ερωτηση για σιγουρια*/
+    margin: 0px;
+    padding: 0px;
+}
+.Header {
+    height:150px;
+    /*background-color: rgb(141, 141, 252);*/    /*Test to see if the height is right*/
+    box-sizing: border-box;
+}
 
+.Home_container {
+    position: absolute;
+    right: 300px;
+    top: 0px;
+    padding:20px;
+    text-decoration: underline;
+}
+.Logo{
+    width: 250px;
+    height:58px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h1:hover{
+    color: grey;
+}
+
+.Products_container {
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    padding:20px;
+    text-decoration: underline;
+}
+
+h4{
+    color: grey;
+}
+
+.Frame1{
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 85px;
+    margin-top: auto;
+    width: 1200px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.Image1{
+    position: absolute;
+    right: 0px;
+    width:600px;
+    height: 400px;
+    top : auto;
+    float:right;
+}
+
+.container p{
+    position: absolute;
+    left :auto;
+    top: auto;
+}
+.Frame2{
+    position: absolute;
+    margin-top: 410px;
+    left: 100px;
+    width: 1200px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.iFrame{
+    position: absolute;
+    right: 0px;
+    margin-top: 830px;
+    left: 85px;
+    width: 600px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.Footer_container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 1500px;
+    height: 100px;
+    box-sizing:border-box;
+    padding:25px;
+}
 /* END CODE HERE */
